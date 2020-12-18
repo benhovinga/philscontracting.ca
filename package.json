@@ -1,0 +1,24 @@
+{
+  "name": "philscontracting.ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhovinga/philscontracting.ca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benhovinga/philscontracting.ca/issues"
+  },
+  "homepage": "https://github.com/benhovinga/philscontracting.ca#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
