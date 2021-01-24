@@ -1,0 +1,27 @@
+/* Main Header Section */
+
+header {
+  background-color: blueviolet; /* test color */
+  padding-top: 3%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+  margin-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px 0 0;
+}
+#nav-logo {
+  height: 100px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.pc-logo {
+  fill: #fff;
+}
