@@ -1,27 +1,45 @@
 /* Main Header Section */
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap");
+
+body {
+  background-color: #f9f9f9;
+  color: rgba(32, 32, 40, 0.85);
+}
+
+h1 {
+  /* Used in Hero for title */
+  color: #181547;
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem;
+}
+
 header {
-  background-color: blueviolet; /* test color */
-  padding-top: 3%;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* Navigation Bar */
 
 .navbar {
   padding: 0;
-  margin-bottom: 4.5rem;
 }
 .nav-item {
-  padding: 0 18px 0 0;
+  padding-left: 18px;
 }
 #nav-logo {
   height: 100px;
 }
 
-.logo {
-  height: 100px;
+/* Hero section */
+
+#hero {
+  background-color: #fff;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
-.pc-logo {
-  fill: #fff;
+.hero-text {
+  text-align: center;
 }
